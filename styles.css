@@ -1,0 +1,146 @@
+:root {
+  --primary-color: #6e2781; /* blue */
+  --secondary-color: #f8f9fa; /* light gray */
+  --text-color: #660658; /* dark gray */
+  --shadow-color: rgba(61, 13, 54, 0.1); /* shadow color */
+  --border-color: #e7e7e7; /* light border color */
+}
+
+
+.jumbotron {
+  background-image: url('https://images.unsplash.com/photo-1580852300513-9b50125bf293?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+.profile-image{
+  width: 400px;
+}
+
+.about-section {
+  background-color: var(--secondary-color); 
+  border-radius: 8px; 
+  box-shadow: 0 4px 6px var(--shadow-color);
+  padding: 40px; 
+}
+
+.about-text h2 {
+  color: var(--primary-color); 
+  margin-bottom: 20px; 
+}
+
+.about-text p {
+  font-size: 16px; 
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+.profile-image {
+  max-width: 250px; 
+  margin: auto; 
+  display: block;
+  border: 5px solid white; 
+  box-shadow: 0 2px 4px var(--shadow-color); 
+}
+
+.portfolio-section {
+  background-color: var(--secondary-color); 
+  border-radius: 8px;
+  box-shadow: 0 4px 6px var(--shadow-color);
+  padding: 40px;
+  margin-top: 40px; 
+}
+
+.section-heading {
+  color: var(--primary-color);
+  margin-bottom: 30px; 
+}
+
+.project-card {
+  border: none; 
+  transition: transform 0.3s ease-in-out; 
+}
+
+.project-card:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0 8px 15px var(--shadow-color); 
+}
+
+.card-img-top {
+  height: 200px; 
+  object-fit: cover; 
+}
+
+.card-title {
+  color: var(--text-color); 
+}
+
+.card-text {
+  font-size: 14px; 
+}
+
+
+
+.skills-section {
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px var(--shadow-color);
+  padding: 40px;
+  margin-top: 40px;
+}
+
+.skill-item h5 {
+  color: var(--primary-color); 
+  margin-bottom: 15px; 
+}
+
+.skill-item p {
+  font-size: 14px; 
+  color: var(--text-color); 
+}
+
+
+.contact-section {
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px var(--shadow-color);
+  padding: 40px;
+  margin-top: 40px;
+}
+
+.contact-details h3 {
+  color: var(--primary-color);
+  margin-bottom: 20px; 
+}
+
+.contact-details ul {
+  padding-left: 0; 
+  list-style-type: none;
+}
+
+.contact-details li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.form-group label {
+  font-weight: bold; 
+}
+
+.btn-primary {
+  background-color:var(--primary-color); 
+  border: none; 
+}
+
+footer {
+  background-color: var(--secondary-color); 
+  padding: 20px 0; 
+  box-shadow: 0 -2px 4px var(--shadow-color); 
+  border-top: 1px solid  var(--border-color); 
+}
+
+footer p {
+  color: --text-color; 
+  font-size: 16px; 
+  margin-bottom: 0; 
+} 
